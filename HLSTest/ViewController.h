@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class MPMoviePlayerController;
 
+@interface ViewController : UIViewController
+@property (strong, nonatomic) MPMoviePlayerController* moviePlayerController;
 @end

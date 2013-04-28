@@ -18,6 +18,7 @@
 		CA571DA4172BB67700C9A1ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA571DA3172BB67700C9A1ED /* Default-568h@2x.png */; };
 		CA571DA7172BB67700C9A1ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA571DA6172BB67700C9A1ED /* ViewController.m */; };
 		CA571DAA172BB67700C9A1ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA571DA8172BB67700C9A1ED /* ViewController.xib */; };
+		CA571DB1172BB6AC00C9A1ED /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA571DB0172BB6AC00C9A1ED /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		CA571DA5172BB67700C9A1ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA571DA6172BB67700C9A1ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA571DA9172BB67700C9A1ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CA571DB0172BB6AC00C9A1ED /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA571DB1172BB6AC00C9A1ED /* MediaPlayer.framework in Frameworks */,
 				CA571D8E172BB67700C9A1ED /* UIKit.framework in Frameworks */,
 				CA571D90172BB67700C9A1ED /* Foundation.framework in Frameworks */,
 				CA571D92172BB67700C9A1ED /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		CA571D81172BB67700C9A1ED = {
 			isa = PBXGroup;
 			children = (
+				CA571DB0172BB6AC00C9A1ED /* MediaPlayer.framework */,
 				CA571D93172BB67700C9A1ED /* HLSTest */,
 				CA571D8C172BB67700C9A1ED /* Frameworks */,
 				CA571D8B172BB67700C9A1ED /* Products */,
@@ -297,6 +301,7 @@
 				CA571DAF172BB67700C9A1ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
